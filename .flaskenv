@@ -1,0 +1,2 @@
+FLASK_APP=caycom.py
+FLASK_ENV=development
