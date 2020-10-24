@@ -51,7 +51,6 @@ class CustomerResource(Resource):
 
 
 class RegisterApiResource(Resource):
-    @jwt_required
     def post(self):
         try:
             result = CustomerSchema().load(request.json)
