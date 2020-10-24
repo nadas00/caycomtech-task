@@ -76,7 +76,9 @@ class RegisterApiResource(Resource):
 class LoginApiResource(Resource):
     def post(self):
         if "email" in request.json and "password" in request.json:
-            customer = Customer.query.filter_by(email = request.json["email"]).first_or_404()
+            customer = Customer.query.filter_by(email = request.json["email"]).first()
+            if customer is None:
+                return {"Error":"User not found!"}
             authorized = customer.check_password(request.json["password"])
             if not authorized:
                 return {'error': 'Email or password invalid'}, 401
