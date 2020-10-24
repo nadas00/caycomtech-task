@@ -2,7 +2,9 @@
 
 ##### Running directions:
 * Open root folder
+* Run "**python3 -m venv venv**"
 * Run "**source venv/bin/activate**"
+* Run "**pip install -r requirements.txt**"
 * Run "**flask run**"
 
 **If you facing anyproblem while running app you can contact me : se.hasanciftci@gmail.com**
@@ -65,8 +67,9 @@ End of routes.
     - Login Test Cases
     - Authorized Access Test Cases
 
- 
+
 > From root base terminal run **nose2** command to run tests.
+
 - INCLUDES LOGGING:  /demo.log
 #### Sample Token
 

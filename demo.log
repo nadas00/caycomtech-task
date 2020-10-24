@@ -43,3 +43,13 @@ INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:13:32] "[31m[1mPOST /register HTTP
 INFO:root:New customer registered
 INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:13:56] "[37mPOST /register HTTP/1.1[0m" 200 -
 INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/CAYCOM-TASK/app/resource.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 21:21:54] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:root:Customer with this email already exists
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 21:24:19] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+ERROR:root:Customer with this email already exists
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 21:29:12] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 21:29:20] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 22:09:45] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 22:16:04] "[33mGET / HTTP/1.1[0m" 404 -
