@@ -1,0 +1,45 @@
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:03:39] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+ERROR:root:Login process user not found
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:04:05] "[37mPOST /login HTTP/1.1[0m" 200 -
+ERROR:root:Error occured while registering proccess
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:04:49] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+INFO:root:New customer registered
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:05:09] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:05:28] "[37mPOST /login HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/CAYCOM-TASK/app/resource.py', reloading
+INFO:root:Login process success token created.
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:06:17] "[37mPOST /login HTTP/1.1[0m" 200 -
+ERROR:root:Login process password is wrong
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:06:30] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+INFO:root:Login process success token created.
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:06:38] "[37mPOST /login HTTP/1.1[0m" 200 -
+ERROR:root:Login process user not found
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:06:43] "[37mPOST /login HTTP/1.1[0m" 200 -
+INFO:root:Login process success token created.
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:06:52] "[37mPOST /login HTTP/1.1[0m" 200 -
+INFO:root:Show all customers api point
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:07:16] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:root:Show customer by id api point
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:07:24] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+INFO:root:Patch customer by id api point
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:07:58] "[37mPATCH /customers/1 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/CAYCOM-TASK/app/resource.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:09:43] "[35m[1mPATCH /customers/1 HTTP/1.1[0m" 500 -
+INFO:root:Patch customer by id api point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:10:24] "[37mPATCH /customers/1 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/CAYCOM-TASK/app/resource.py', reloading
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/CAYCOM-TASK/app/resource.py', reloading
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/CAYCOM-TASK/app/resource.py', reloading
+INFO:root:Patch customer by id api point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:11:56] "[37mPATCH /customers/1 HTTP/1.1[0m" 200 -
+INFO:root:Show customer by id api point
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:12:04] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/CAYCOM-TASK/app/resource.py', reloading
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/CAYCOM-TASK/app/resource.py', reloading
+ERROR:root:Customer with this email already exists
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:13:32] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+INFO:root:New customer registered
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2020 20:13:56] "[37mPOST /register HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/CAYCOM-TASK/app/resource.py', reloading
