@@ -1,2 +1,3 @@
 FLASK_APP=caycom.py
+FLASK_RUN_PORT=8000
 FLASK_ENV=development
