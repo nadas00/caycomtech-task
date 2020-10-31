@@ -64,7 +64,7 @@ class RegisterApiResourceAPI(Resource):
             result = CustomerSchema().load(request.json)
         except ValidationError as err:
             logging.error(msg="Error occured while registering proccess")
-            return {"error": err.messages}, 400
+            return {"msg": err.messages}, 400
 
         new_customer = Customer(
             name=request.json['name'],
@@ -77,11 +77,11 @@ class RegisterApiResourceAPI(Resource):
 
         if customer_exists(new_customer.email):
             logging.error(msg="Customer with this email already exists")
-            return {'Error': 'Customer with this email already exists'}, 409
+            return {'msg': 'Customer with this email already exists'}, 409
         db.session.add(new_customer)
         db.session.commit()
         logging.info(msg="New customer registered")
-        return customer_schema.dump(new_customer)
+        return customer_schema.dump(new_customer), 201
 
 
 class LoginApiResourceAPI(Resource):

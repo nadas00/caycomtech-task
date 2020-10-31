@@ -36,13 +36,13 @@
                 </thead>
                 {% for customer in response %}
                     <tr>
-                        <td>{{customer.id}} </td>
-                        <td style="word-break: break-word;">{{customer.name}}</td>
+                        <td>{{customer.id}}</td>
+                        <td id="den"style="word-break: break-word;">{{customer.name}}</td>
                         <td style=" word-break: break-all;">{{customer.surname}}</td>
                         <td>{{customer.email}}</td>
                         <td>{{customer.identification_number}}</td>
                         <td>{{customer.phone_number}}</td>
-                        <td><a href="TODO: DELETE"  class="btn btn-danger" role="button">Delete</a>
+                        <td><a href="/delete/{{customer.id}}" class="btn btn-danger" role="button">Delete</a>
                     </tr>
                 {% endfor %}
             </table>
