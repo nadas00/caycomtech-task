@@ -27,10 +27,22 @@ def get_customer(id):
 
 @app.route('/login', methods = ["GET","POST"])
 def login():
+    url = 'http://127.0.0.1:8000/api/login'
     form = LoginForm(request.form)
     if request.method == "POST" and form.validate():
-        pass
+        entered_email = form.mail.data
+        entered_password = form.password.data
+        response = requests.request("POST", url, json={"email":entered_email, "password":entered_password})
+        json_response = json.loads(response.content)
+        if response.status_code == 200:
+            session['token'] = json_response['token']
+
     return render_template('login.html',form = form)
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    return 'Token removed.'
    
 
 def set_headers():

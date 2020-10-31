@@ -9,7 +9,7 @@ import datetime
 import logging
 
 class CustomerListResourceAPI(Resource):
-    #@jwt_required
+    @jwt_required
     def get(self):
         logging.info(msg="Show all customers API point")
         customers = Customer.query.all()
@@ -18,7 +18,7 @@ class CustomerListResourceAPI(Resource):
 
 
 class CustomerResourceAPI(Resource):
-    #@jwt_required
+    @jwt_required
     def get(self, customer_id):
         logging.info(msg="Show customer by id API point")
         customer = Customer.query.get_or_404(customer_id)
@@ -94,7 +94,7 @@ class LoginApiResourceAPI(Resource):
             authorized = customer.check_password(request.json["password"])
             if not authorized:
                 logging.error(msg="Login process password is wrong")
-                return {'error': 'Email or password invalid'}, 401
+                return {'Error': 'Email or password invalid'}, 401
             expires = datetime.timedelta(days=7)
             access_token = create_access_token(identity=str(customer.id), expires_delta=expires)
             logging.info(msg="Login process success token created.")
