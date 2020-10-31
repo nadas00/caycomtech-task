@@ -32,6 +32,7 @@
                         <th scope="col">TC No</th>
                         <th scope="col">Phone No</th>
                         <th></th>
+                        <th></th>
                     </tr>
                 </thead>
                 {% for customer in response %}
@@ -42,7 +43,8 @@
                         <td>{{customer.email}}</td>
                         <td>{{customer.identification_number}}</td>
                         <td>{{customer.phone_number}}</td>
-                        <td><a href="/delete/{{customer.id}}" class="btn btn-danger" role="button">Delete</a>
+                        <td><a href="/delete/{{customer.id}}" class="btn btn-danger" role="button">Delete</a></td>
+                        <td><a href="/update/{{customer.id}}" class="btn btn-info" role="button">Update</a></td>
                     </tr>
                 {% endfor %}
             </table>

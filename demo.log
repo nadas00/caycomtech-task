@@ -4647,3 +4647,859 @@ INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 00:50:24] "[37mGET /delete/3?__debugge
 INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 00:50:24] "[37mGET /delete/3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 00:50:24] "[37mGET /delete/3?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 00:50:24] "[37mGET /delete/3?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:09] "[35m[1mGET /customers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:09] "[37mGET /customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:09] "[37mGET /customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:09] "[37mGET /customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:09] "[37mGET /customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:09] "[37mGET /customers?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:38] "[33mGET /api/customers HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 404 2233
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:38] "[35m[1mGET /customers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:38] "[37mGET /customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:38] "[37mGET /customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:38] "[37mGET /customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:38] "[37mGET /customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:38] "[37mGET /customers?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:39] "[33mGET /api/customers HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 404 2233
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:39] "[35m[1mGET /customers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:39] "[37mGET /customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:39] "[37mGET /customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:39] "[37mGET /customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:39] "[37mGET /customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:39] "[37mGET /customers?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:40] "[33mGET /api/customers HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 404 2233
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:40] "[35m[1mGET /customers HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:40] "[37mGET /customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:40] "[37mGET /customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:40] "[37mGET /customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:40] "[37mGET /customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:40] "[37mGET /customers?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:45] "[33mGET /api/customers/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 404 2233
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:45] "[35m[1mGET /customers/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:45] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:45] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:45] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:45] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:45] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:46] "[33mGET /api/customers/! HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/! HTTP/1.1" 404 2233
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:46] "[35m[1mGET /customers/! HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:46] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:46] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:46] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:46] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:46] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:46] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:48] "[33mGET /api/customers/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 404 2233
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:48] "[35m[1mGET /customers/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:48] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:48] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:48] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:48] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:22:48] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:11] "[33mGET /api/customers/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 404 142
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:11] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:11] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:11] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:11] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:11] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:11] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:13] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:13] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:13] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:23:15] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:25:53] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:25:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:25:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:25:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:25:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:25:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:25:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:12] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:12] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:12] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:12] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:12] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:12] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:40] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:26:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:04] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:04] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:04] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:04] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:04] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:04] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:08] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:08] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:08] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:08] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:08] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:08] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:08] "[33mGET /update/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:12] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:12] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:12] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:14] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:14] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:14] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:14] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:56] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:56] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:56] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:27:56] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:28:05] "[37mPOST /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:28:08] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:28:08] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:28:08] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:28:08] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:30:49] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:30:49] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:30:49] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:30:49] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:30:49] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:30:49] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:31:13] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:31:13] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:31:13] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:31:13] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:31:13] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:31:13] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:11] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:15] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:15] "[37mPOST /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:18] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:18] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:18] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:18] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:18] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:18] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:53] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:53] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:56] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:56] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:56] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:56] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:56] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:59] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:59] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:59] "[37mGET /customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:59] "[37mGET /customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:59] "[37mGET /customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:59] "[37mGET /customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:32:59] "[37mGET /customers?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:33:10] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:33:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:33:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:33:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:33:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:33:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/resource.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:06] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:06] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:06] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:06] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:06] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:07] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:10] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:10] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:16] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:16] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:16] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:16] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:16] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:18] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:34:18] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:35:06] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:35:06] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:35:07] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:35:07] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:35:07] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:35:07] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:35:07] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:35:07] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/resource.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:42] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:45] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:45] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:45] "[37mGET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:45] "[37mGET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:45] "[37mGET /logout?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:45] "[37mGET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:45] "[37mGET /logout?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:47] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:54] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:54] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:54] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:54] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:54] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:54] "[37mGET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Login process success token created.
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:59] "[37mPOST /api/login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/login HTTP/1.1" 200 291
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:59] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:59] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:36:59] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:01] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:01] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:01] "[37mGET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:01] "[37mGET /logout?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:01] "[37mGET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:01] "[37mGET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:01] "[37mGET /logout?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:04] "[31m[1mGET /api/customers HTTP/1.1[0m" 401 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 401 44
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:04] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:04] "[37mGET /customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:04] "[37mGET /customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:04] "[37mGET /customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:04] "[37mGET /customers?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:04] "[37mGET /customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/resource.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:27] "[31m[1mGET /api/customers/1 HTTP/1.1[0m" 401 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 401 44
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:28] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:28] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:28] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:28] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:28] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:28] "[37mGET /customers/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:31] "[33mGET /update/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:32] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/resource.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:52] "[31m[1mDELETE /api/customers/2 HTTP/1.1[0m" 401 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "DELETE /api/customers/2 HTTP/1.1" 401 44
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:52] "[32mGET /delete/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:52] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:37:52] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:09] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:09] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:09] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:09] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:09] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:09] "[37mGET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Login process success token created.
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:15] "[37mPOST /api/login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/login HTTP/1.1" 200 291
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:15] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:15] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:15] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:18] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:22] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:22] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:22] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:22] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:22] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:24] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:24] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:53] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:55] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:55] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:55] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:55] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:55] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:59] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:38:59] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:39:00] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:39:06] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:39:06] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:39:06] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:39:06] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:39:06] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/resource.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:47] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:47] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:47] "[37mGET /customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:47] "[37mGET /customers?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:47] "[37mGET /customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:47] "[37mGET /customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:47] "[37mGET /customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:49] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:50] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:50] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:50] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:50] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:50] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:52] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:56] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:56] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:56] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:56] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:56] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:58] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:42:58] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:10] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:16] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:16] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:16] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:16] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:16] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:46] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:48] "[37mGET /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:48] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:48] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:48] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:43:48] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:44:00] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:44:01] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:44:01] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:44:01] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:44:01] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:44:01] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:28] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:28] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:29] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:37] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 257
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:37] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:37] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:37] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 297
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:37] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:54] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 297
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:54] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:45:55] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:03] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 257
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:03] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:03] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:03] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 297
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:03] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:50] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 297
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:50] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:52] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:57] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:57] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 297
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:46:57] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:00] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:09] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:09] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:09] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:09] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:09] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:22] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:22] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:24] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:24] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:24] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:24] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:24] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:24] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:40] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:40] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:46] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 254
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:46] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:46] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:46] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 294
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:47:47] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:10] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 294
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:10] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:11] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:11] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:18] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 250
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:18] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:18] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:18] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 290
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:18] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:54] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 290
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:54] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:55] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:55] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:55] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:55] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:55] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:48:55] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:49:02] "[37mPOST /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:49:07] "[37mPOST /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:05] "[35m[1mGET /update/2 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:05] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:05] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:05] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:05] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:05] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:36] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:43] "[33mPATCH /api/customers/2 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 404 2233
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:43] "[37mPOST /update/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:46] "[33mPATCH /api/customers/2 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 404 2233
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:54:46] "[37mPOST /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:19] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:19] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 290
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:19] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:21] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:21] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:21] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:21] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:21] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:21] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:27] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 264
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:27] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:27] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:27] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 304
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:27] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:56] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 304
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:56] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:57] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:57] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:57] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:57] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:57] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:55:57] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:56:03] "[37mPOST /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:56:35] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:56:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:56:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:56:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:56:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:56:36] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:56:41] "[37mPOST /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:06] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:06] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:06] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:06] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:06] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:06] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:11] "[37mPOST /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:44] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:44] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:44] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:44] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:44] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:44] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:49] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 254
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:49] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:49] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:49] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 294
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:49] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:54] "[37mGET /update/2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:54] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:54] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:54] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:54] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:57:54] "[37mGET /update/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+INFO:root:Customer patch operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:01] "[37mPATCH /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:01] "[32mPOST /update/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:01] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:01] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:01] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:04] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:04] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:04] "[37mGET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:04] "[37mGET /logout?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:04] "[37mGET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:04] "[37mGET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:04] "[37mGET /logout?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:07] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:New customer registered
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:17] "[37mPOST /api/register HTTP/1.1[0m" 201 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/register HTTP/1.1" 201 253
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:17] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:17] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:17] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:19] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:19] "[37mGET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:19] "[37mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:19] "[37mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:19] "[37mGET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:19] "[37mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Login process success token created.
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:22] "[37mPOST /api/login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/login HTTP/1.1" 200 291
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:22] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:22] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 582
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:22] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:24] "[37mGET /update/3 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+ERROR:root:Email already exists
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:36] "[31m[1mPATCH /api/customers/3 HTTP/1.1[0m" 409 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/3 HTTP/1.1" 409 59
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:36] "[37mPOST /update/3 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+ERROR:root:Email already exists
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:39] "[31m[1mPATCH /api/customers/3 HTTP/1.1[0m" 409 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/3 HTTP/1.1" 409 59
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:58:39] "[37mPOST /update/3 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+ERROR:root:Email already exists
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:04] "[31m[1mPATCH /api/customers/3 HTTP/1.1[0m" 409 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/3 HTTP/1.1" 409 59
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:04] "[35m[1mPOST /update/3 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:05] "[37mGET /update/3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:05] "[37mGET /update/3?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:05] "[37mGET /update/3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:05] "[37mGET /update/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:05] "[37mGET /update/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:05] "[37mGET /update/3?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:22] "[37mGET /update/3 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+ERROR:root:Email already exists
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:29] "[31m[1mPATCH /api/customers/3 HTTP/1.1[0m" 409 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/3 HTTP/1.1" 409 59
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:29] "[37mPOST /update/3 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
+INFO:werkzeug: * Restarting with stat

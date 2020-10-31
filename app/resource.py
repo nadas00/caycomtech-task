@@ -24,7 +24,7 @@ class CustomerResourceAPI(Resource):
         customer = Customer.query.get_or_404(customer_id)
         return customer_schema.dump(customer)
 
-    #@jwt_required
+    @jwt_required
     def patch(self, customer_id):
         logging.info(msg="Patch customer by id API point")
         customer = Customer.query.get_or_404(customer_id)
@@ -46,9 +46,9 @@ class CustomerResourceAPI(Resource):
             customer.create_password(request.json['password'])
         logging.info(msg="Customer patch operation success")
         db.session.commit()
-        return customer_schema.dump(customer)
+        return customer_schema.dump(customer), 200
 
-    #@jwt_required
+    @jwt_required
     def delete(self, customer_id):
         logging.info(msg="Delete single customer by id API piont")
         customer = Customer.query.get_or_404(customer_id)

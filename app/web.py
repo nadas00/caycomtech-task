@@ -3,7 +3,7 @@ from app import app
 from app import resource
 import requests
 import json
-from app.forms import LoginForm, RegisterForm
+from app.forms import LoginForm, RegisterForm, UpdateForm
 
 
 @app.route('/customers', methods = ["GET"])
@@ -73,7 +73,22 @@ def delete(id):
     response = requests.request("DELETE", url, headers=set_headers())
     return redirect(url_for('index'))
 
-    
+@app.route('/update/<string:id>', methods = ["GET","POST"])
+def update(id):
+    form = UpdateForm(request.form)
+    if request.method == "POST" and form.validate():
+        url = 'http://127.0.0.1:8000/api/customers/'+id
+        entered_email = form.mail.data
+        entered_name = form.name.data
+        entered_surname = form.surname.data
+        entered_phone_no = form.phone_no.data
+        entered_id_no = form.id_no.data
+        response = requests.request("PATCH", url, headers=set_headers(), json={"email":entered_email, "name":entered_name, "surname":entered_surname, "identification_number":entered_id_no, "phone_number":entered_phone_no})
+        json_response = json.loads(response.content)
+        if response.status_code == 200:
+            return redirect(url_for('index'))
+        return render_template('404.html', response = json_response, status=response.status_code)
+    return render_template('update.html', form = form)
 
 @app.route('/logout')
 def logout():

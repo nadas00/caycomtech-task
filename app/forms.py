@@ -12,5 +12,10 @@ class RegisterForm(Form):
     surname = StringField('Surname', validators = [validators.DataRequired()])
     id_no = StringField('TC No', validators = [validators.DataRequired()])
     phone_no = StringField('Phone No', validators = [validators.DataRequired()])
-    
-    
+
+class UpdateForm(Form):
+    mail = StringField('Email', validators = [validators.DataRequired()])
+    name = StringField('Name', validators = [validators.DataRequired()])
+    surname = StringField('Surname', validators = [validators.DataRequired()])
+    id_no = StringField('TC No', validators = [validators.DataRequired()])
+    phone_no = StringField('Phone No', validators = [validators.DataRequired()])
