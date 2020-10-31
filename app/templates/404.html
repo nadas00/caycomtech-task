@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{%block body%}
+<div class="alert alert-danger" role="alert">
+    <h4 class="alert-heading">Seems like content does not exists!</h4>
+    <p> 
+        {% if status %}
+            Error {{status}}!
+        {% else %}
+            404 Not Found!
+        {% endif %}
+    </p>
+    <hr>
+    <p class="mb-0">
+        An error occured,
+        {% if response %}
+            {{response['msg']}}
+        {% endif %}
+        <a href="/">click here to try it again!</a>
+    </p>
+</div>
+{%endblock body%}

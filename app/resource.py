@@ -90,17 +90,17 @@ class LoginApiResourceAPI(Resource):
             customer = Customer.query.filter_by(email = request.json["email"]).first()
             if customer is None:
                 logging.error(msg="Login process user not found")
-                return {"Error":"User not found!"}
+                return {"msg":"User not found!"}, 401
             authorized = customer.check_password(request.json["password"])
             if not authorized:
                 logging.error(msg="Login process password is wrong")
-                return {'Error': 'Email or password invalid'}, 401
+                return {'msg': 'Email or password invalid'}, 401
             expires = datetime.timedelta(days=7)
             access_token = create_access_token(identity=str(customer.id), expires_delta=expires)
             logging.info(msg="Login process success token created.")
             session['token'] = access_token
             return {'token': access_token}, 200
-        return {'Error': 'email and password fields needed'}, 400
+        return {'msg': 'email and password fields needed'}, 400
 
 api.add_resource(CustomerListResourceAPI, '/api/customers')
 api.add_resource(CustomerResourceAPI, '/api/customers/<int:customer_id>')

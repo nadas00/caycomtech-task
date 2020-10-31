@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, url_for, request, session
+from flask import Flask, render_template, request, url_for, request, session, redirect
 from app import app
 from app import resource
 import requests
@@ -27,6 +27,8 @@ def get_customer(id):
 
 @app.route('/login', methods = ["GET","POST"])
 def login():
+    if "logged_in" in session:
+        return redirect(url_for('get_customers'))
     url = 'http://127.0.0.1:8000/api/login'
     form = LoginForm(request.form)
     if request.method == "POST" and form.validate():
@@ -37,14 +39,27 @@ def login():
         if response.status_code == 200:
             session['token'] = json_response['token']
             session['logged_in'] = True
+            return redirect(url_for('index'))
             # TODO: RETURN REDIRECT
         # TODO: RETURN ERRORS
+        return render_template('404.html', response = json_response, status=response.status_code)
     return render_template('login.html',form = form)
 
 @app.route('/logout')
 def logout():
     session.clear()
-    return 'Token removed.'
+    return redirect(url_for('index'))
+
+@app.route('/')
+def index():
+    if "logged_in" in session:
+        return redirect(url_for('get_customers'))
+    return redirect(url_for('login'))
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
    
 
 def set_headers():
