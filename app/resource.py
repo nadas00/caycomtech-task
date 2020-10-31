@@ -4,11 +4,11 @@ from app import api, db
 from app.model import Customer
 from app.schema import customers_schema, customer_schema, CustomerSchema
 from marshmallow import ValidationError
-from flask import request
+from flask import request, session
 import datetime
 import logging
 
-class CustomerListResource(Resource):
+class CustomerListResourceAPI(Resource):
     @jwt_required
     def get(self):
         logging.info(msg="Show all customers API point")
@@ -17,14 +17,14 @@ class CustomerListResource(Resource):
         return customers_schema.dump(customers)
 
 
-class CustomerResource(Resource):
-    @jwt_required
+class CustomerResourceAPI(Resource):
+    #@jwt_required
     def get(self, customer_id):
         logging.info(msg="Show customer by id API point")
         customer = Customer.query.get_or_404(customer_id)
         return customer_schema.dump(customer)
 
-    @jwt_required
+    #@jwt_required
     def patch(self, customer_id):
         logging.info(msg="Patch customer by id API point")
         customer = Customer.query.get_or_404(customer_id)
@@ -48,7 +48,7 @@ class CustomerResource(Resource):
         db.session.commit()
         return customer_schema.dump(customer)
 
-    @jwt_required
+    #@jwt_required
     def delete(self, customer_id):
         logging.info(msg="Delete single customer by id API piont")
         customer = Customer.query.get_or_404(customer_id)
@@ -58,7 +58,7 @@ class CustomerResource(Resource):
         return '', 204
 
 
-class RegisterApiResource(Resource):
+class RegisterApiResourceAPI(Resource):
     def post(self):
         try:
             result = CustomerSchema().load(request.json)
@@ -84,7 +84,7 @@ class RegisterApiResource(Resource):
         return customer_schema.dump(new_customer)
 
 
-class LoginApiResource(Resource):
+class LoginApiResourceAPI(Resource):
     def post(self):
         if "email" in request.json and "password" in request.json:
             customer = Customer.query.filter_by(email = request.json["email"]).first()
@@ -98,13 +98,14 @@ class LoginApiResource(Resource):
             expires = datetime.timedelta(days=7)
             access_token = create_access_token(identity=str(customer.id), expires_delta=expires)
             logging.info(msg="Login process success token created.")
+            session['token'] = access_token
             return {'token': access_token}, 200
         return {'Error': 'email and password fields needed'}, 400
 
-api.add_resource(CustomerListResource, '/customers')
-api.add_resource(CustomerResource, '/customers/<int:customer_id>')
-api.add_resource(RegisterApiResource, '/register')
-api.add_resource(LoginApiResource, '/login')
+api.add_resource(CustomerListResourceAPI, '/api/customers')
+api.add_resource(CustomerResourceAPI, '/api/customers/<int:customer_id>')
+api.add_resource(RegisterApiResourceAPI, '/api/register')
+api.add_resource(LoginApiResourceAPI, '/api/login')
 
 
 def customer_exists(email):

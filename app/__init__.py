@@ -9,10 +9,11 @@ app = Flask(__name__)
 app.config["JWT_SECRET_KEY"] = 't1NP63m4wnBg6nyHYKfmc2TpCOGI4nss'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///caycom.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = 'False'
+app.config['SECRET_KEY'] = 'HASAN'
 logging.basicConfig(filename='demo.log', level=logging.DEBUG)
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
 api = Api(app)
 jwt = JWTManager(app)
 
-from app import model, schema, resource, error_handler
+from app import model, schema, resource, error_handler, web
