@@ -1,14 +1,54 @@
-{% for i in response%}
-    {{i.name}}
-{% endfor %}
-<br>
+{% extends "layout.html" %}
+
+{% block title %}
+    Customer
+{% endblock %}
+
+{% block body %}
+    {% if error %}
+
+    <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">Sorry!</h4>
+        <p> {{response['msg']}}</p>
+        <hr>
+        <p class="mb-0">An error occured, <a href="/">click here to try it again!</a></p>
+    </div>
+
+    {% else %}  
+
+    <div class="topic" id="topic">
+        <h3 id="productsSayfaBaslik">Customers</h3>
+    </div>
+
+    <div class="content" id="content">
+        <div style="overflow-x:auto;" >
+            <table class="table" id="productsTable">
+                <thead class="thead-dark" >
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Surname</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">TC No</th>
+                        <th scope="col">Phone No</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                {% for customer in response %}
+                    <tr>
+                        <td>{{customer.id}} </td>
+                        <td style="word-break: break-word;">{{customer.name}}</td>
+                        <td style=" word-break: break-all;">{{customer.surname}}</td>
+                        <td>{{customer.email}}</td>
+                        <td>{{customer.identification_number}}</td>
+                        <td>{{customer.phone_number}}</td>
+                        <td><a href="TODO: DELETE"  class="btn btn-danger" role="button">Delete</a>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+    {% endif %}  
+{% endblock %}
 
 
-
-{% if error %}
-{{error}}
-
-<br>
-{{response['msg']}}
-
-{% endif %}

@@ -36,7 +36,9 @@ def login():
         json_response = json.loads(response.content)
         if response.status_code == 200:
             session['token'] = json_response['token']
-
+            session['logged_in'] = True
+            # TODO: RETURN REDIRECT
+        # TODO: RETURN ERRORS
     return render_template('login.html',form = form)
 
 @app.route('/logout')
