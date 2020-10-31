@@ -1,3 +1,14 @@
 {% for i in response%}
     {{i.name}}
 {% endfor %}
+<br>
+
+
+
+{% if error %}
+{{error}}
+
+<br>
+{{response['msg']}}
+
+{% endif %}

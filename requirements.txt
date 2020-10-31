@@ -10,3 +10,4 @@ Flask-SQLAlchemy
 marshmallow-sqlalchemy
 python-dotenv
 nose2
+Flask-WTF

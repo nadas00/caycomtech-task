@@ -1,0 +1,10 @@
+<h3>Login</h3>
+<br><br>
+{% from "includes/formhelpers.html" import render_field %}
+<form method=post>
+<dl>
+{{ render_field(form.mail,class="form-control") }}
+{{ render_field(form.password,class="form-control") }}
+</dl>
+<button type="submit" class="btn btn-info">Login</button>
+</form> 

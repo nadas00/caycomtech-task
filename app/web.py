@@ -3,21 +3,38 @@ from app import app
 from app import resource
 import requests
 import json
+from app.forms import LoginForm
 
 
 @app.route('/customers', methods = ["GET"])
 def get_customers():
     url = 'http://127.0.0.1:8000/api/customers'
-    headers = {
-    'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDQxNTc0MTYsIm5iZiI6MTYwNDE1NzQxNiwianRpIjoiYWIyMmFiNzEtN2FkZS00MGViLWI0YzgtNDBkNDkyNmQ4ZTUxIiwiZXhwIjoxNjA0NzYyMjE2LCJpZGVudGl0eSI6IjIiLCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.hH75HVFv41HoIHn7Feo6Xz8PC5efYyy4ispDRfLnywo'
-    }
-    print(session['token'])
-    response = requests.request("GET", url, headers=headers).content
-    json_response = json.loads(response)
-    return render_template('customers.html', response = json_response)
+    response = requests.request("GET", url, headers=set_headers())
+    json_response = json.loads(response.content)
+    if response.status_code == 200:
+        return render_template('customers.html', response = json_response)
+    return render_template('customers.html', response = json_response, error = 'Error')
 
 @app.route('/customers/<string:id>', methods = ["GET"])
 def get_customer(id):
-    response = resource.CustomerResourceAPI.get(resource,id)
-    return render_template('customers.html', response = response)
+    url = 'http://127.0.0.1:8000/api/customers/'+id
+    response = requests.request("GET", url, headers=set_headers())
+    json_response = [json.loads(response.content)]
+    if response.status_code == 200:
+        return render_template('customers.html', response = json_response)
+    return render_template('customers.html', response = json_response, error = 'Error')
 
+
+@app.route('/login', methods = ["GET","POST"])
+def login():
+    form = LoginForm(request.form)
+    if request.method == "POST" and form.validate():
+        pass
+    return render_template('login.html',form = form)
+   
+
+def set_headers():
+    headers = {}
+    if 'token' in session:
+        headers = {'Authorization': 'Bearer {}'.format(session['token'])}
+    return headers

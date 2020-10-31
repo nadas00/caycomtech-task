@@ -9,7 +9,7 @@ import datetime
 import logging
 
 class CustomerListResourceAPI(Resource):
-    @jwt_required
+    #@jwt_required
     def get(self):
         logging.info(msg="Show all customers API point")
         customers = Customer.query.all()
