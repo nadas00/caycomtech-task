@@ -1,5 +1,6 @@
 # CaycomTech Application Task
 
+
 ##### Running directions:
 * Open root folder
 * Run "**python3 -m venv venv**"
@@ -9,6 +10,57 @@
 
 **If you facing anyproblem while running app you can contact me : se.hasanciftci@gmail.com**
 
+# Web App
+caycomtech-task Web App sends request to caycomtech-task API and renders responses.
+### Routes:
+
+###### Index (/) : 
+redirects /login if no jwt. 
+redirects /customer if jwt exists.
+
+###### Logout (/logout) : 
+kills session and jwt. 
+redirects /login.
+
+###### Register (/register) : 
+registration page.
+![](https://user-images.githubusercontent.com/46631211/97799701-af54ff80-1c40-11eb-9dbb-83cffc07e6b5.png)
+
+###### Login (/login) : 
+login page.
+starts jwt session with successful login.
+![](https://user-images.githubusercontent.com/46631211/97799734-d8759000-1c40-11eb-9620-31cfc9ae0ecc.png)
+
+###### Customers (/customers) : 
+show all customers in a table.
+** jwt required route **
+![](https://user-images.githubusercontent.com/46631211/97799762-fe9b3000-1c40-11eb-9ff4-b7cfaf66d07f.png)
+
+###### Customers (/customers/< string:id >) : 
+show a customer on a table row by id.
+** jwt required route **
+![](https://user-images.githubusercontent.com/46631211/97799790-1e325880-1c41-11eb-973d-8fec7d56468c.png)
+
+###### Update (/update/< string:id >) : 
+update a customer by id.
+** jwt required route **
+![](https://user-images.githubusercontent.com/46631211/97799830-4d48ca00-1c41-11eb-948b-4e0beca2960b.png)
+
+
+###### Other errors (dynamic route):
+returns error with message.
+![](https://user-images.githubusercontent.com/46631211/97799816-3ace9080-1c41-11eb-83ba-251f2cedffef.png)
+
+###### Delete (/delete/< string:id >) : 
+delete a customer by id.
+** jwt required route **
+
+
+###### 404 (/404) : 
+returns 404 with message.
+
+
+# API
 
 All API points except register/login needs Bearer token.
 > Sample user information for testing
