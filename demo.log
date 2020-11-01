@@ -5503,3 +5503,212 @@ DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/3 HTTP/
 INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 01:59:29] "[37mPOST /update/3 HTTP/1.1[0m" 200 -
 INFO:werkzeug: * Detected change in '/Users/hasanciftci/Desktop/clone/caycomtech-task/app/web.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:15] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:15] "[37mGET /login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Login process success token created.
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:33] "[37mPOST /api/login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/login HTTP/1.1" 200 291
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:33] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:33] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 292
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:33] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:52] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:52] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:40:54] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:New customer registered
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:08] "[37mPOST /api/register HTTP/1.1[0m" 201 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/register HTTP/1.1" 201 277
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:08] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:08] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:08] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:10] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:New customer registered
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:18] "[37mPOST /api/register HTTP/1.1[0m" 201 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/register HTTP/1.1" 201 277
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:18] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:18] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:18] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:24] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:New customer registered
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:31] "[37mPOST /api/register HTTP/1.1[0m" 201 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/register HTTP/1.1" 201 277
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:31] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:31] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:31] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:33] "[37mGET /login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Login process success token created.
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:38] "[37mPOST /api/login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/login HTTP/1.1" 200 291
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:38] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:38] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 1234
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:38] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:51] "[33mGET /api/customers/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 404 142
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:51] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:52] "[33mGET /api/customers/! HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/! HTTP/1.1" 404 2233
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:52] "[35m[1mGET /customers/! HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:52] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:52] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:52] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:52] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:52] "[37mGET /customers/!?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:53] "[33mGET /api/customers/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 404 142
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:53] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:53] "[37mGET /api/customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/2 HTTP/1.1" 200 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:41:53] "[37mGET /customers/2 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Delete single customer by id API piont
+INFO:root:Customer delete operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:10] "[37mDELETE /api/customers/2 HTTP/1.1[0m" 204 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "DELETE /api/customers/2 HTTP/1.1" 204 0
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:10] "[32mGET /delete/2 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:10] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:10] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 945
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:10] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:13] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:13] "[37mGET /login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+ERROR:root:Login process user not found
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:18] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/login HTTP/1.1" 401 33
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:18] "[37mPOST /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:28] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:30] "[37mGET /register HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:New customer registered
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:42] "[37mPOST /api/register HTTP/1.1[0m" 201 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/register HTTP/1.1" 201 252
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:42] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:42] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:42] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:44] "[37mGET /login HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:45] "[37mGET /register HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:46] "[37mGET /login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Login process success token created.
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:50] "[37mPOST /api/login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "POST /api/login HTTP/1.1" 200 291
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:50] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:50] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 1234
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:50] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:55] "[37mGET /update/6 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:42:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Patch customer by id API point
+ERROR:root:Email already exists
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:17] "[31m[1mPATCH /api/customers/6 HTTP/1.1[0m" 409 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "PATCH /api/customers/6 HTTP/1.1" 409 59
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:17] "[37mPOST /update/6 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:20] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:20] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 1234
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:20] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:28] "[33mGET /api/customers/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 404 142
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:28] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:29] "[33mGET /api/customers/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 404 142
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:29] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:30] "[33mGET /api/customers/9 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/9 HTTP/1.1" 404 142
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:30] "[37mGET /customers/9 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:37] "[33mGET /api/customers/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 404 142
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:37] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show customer by id API point
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:38] "[33mGET /api/customers/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers/1 HTTP/1.1" 404 142
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:38] "[37mGET /customers/1 HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 1234
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 1234
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Delete single customer by id API piont
+INFO:root:Customer delete operation success
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[37mDELETE /api/customers/3 HTTP/1.1[0m" 204 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "DELETE /api/customers/3 HTTP/1.1" 204 0
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[32mGET /delete/3 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 920
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:39] "[37mGET /customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Delete single customer by id API piont
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:42] "[33mDELETE /api/customers/7 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "DELETE /api/customers/7 HTTP/1.1" 404 142
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:42] "[32mGET /delete/7 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:42] "[32mGET / HTTP/1.1[0m" 302 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:root:Show all customers API point
+INFO:root:Customers listed
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:42] "[37mGET /api/customers HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 200 920
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:42] "[37mGET /customers HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:44] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:44] "[37mGET /login HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:8000
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:47] "[31m[1mGET /api/customers HTTP/1.1[0m" 401 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:8000 "GET /api/customers HTTP/1.1" 401 44
+INFO:werkzeug:127.0.0.1 - - [01/Nov/2020 12:43:47] "[37mGET /customers HTTP/1.1[0m" 200 -
